@@ -1,0 +1,160 @@
+* {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/* personalización del ícono de puntos*/
+#icono-nav1 {
+    width: 24px;
+    padding: 12px 4px 9px 9px;
+}
+
+/* personalización del ícono de perfil*/
+#icono-nav2 {
+    width: 32px;
+    padding: 8px 8px 8px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 4px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+nav ul li {
+    padding: 0px 0px 0px 15px;
+}
+
+header {
+    padding: 6px; 
+}
+
+.icono-buscador {
+    display: inline-block;
+    width: 24px;
+}
+
+#perfil {
+    width: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#imagen-inicio {
+    height: 165px;
+    width: 450px;
+}
+
+#cabecera {
+    padding: 0px 4px 0px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+    width: 100%;
+    height: 65vh;
+}
+
+.linea-abajo {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: #202124;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+article {
+    text-align: center;
+}
+
+.cambiar-color {
+    fill: #b5b6b8;
+    width: 20px;
+}
+
+.flex {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+#buscador {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 587px;   
+    margin: 1.5em;
+    padding: 0px 8px;
+}
+
+#buscador:hover {
+    box-shadow: 0 1px 5px 0 #30303077;
+}
+
+#buscador figure {
+    padding: 8px;
+}
+
+
+#buscador input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+ul {
+    padding: 0px;
+}
+    
+ul li {
+    display: inline;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+button:hover {
+    border-color: #dadce0;
+    box-shadow: 1px 1px rgba(0, 0, 0, .1);
+    cursor:pointer;
+}
